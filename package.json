@@ -1,6 +1,6 @@
 {
-  "name": "webcomponents",
-  "version": "1.0.0",
+  "name": "@kingerez/elements",
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
