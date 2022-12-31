@@ -1,11 +1,19 @@
 {
+  "author": "Erez Rosenbloom",
   "name": "@kingerez/elements",
-  "version": "0.0.1",
-  "main": "index.js",
+  "description": "A lightweight framework for using web components with JSX",
+  "version": "0.0.2",
+  "main": "dist/elements.js",
+  "module": "dist/elements.min.esm.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
   "license": "MIT",
   "scripts": {
     "start": "webpack --mode development --watch",
-    "build": "microbundle --raw -o dist/elements.min.js"
+    "build": "microbundle --raw -o dist/elements.min.js",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@babel/core": "^7.20.7",
